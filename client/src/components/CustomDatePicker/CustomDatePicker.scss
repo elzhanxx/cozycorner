@@ -1,0 +1,38 @@
+.datepicker{
+  background-color: #f9f6ed;
+  border-radius: 5px;
+  border: none;
+  width: 170px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 0 10px 0;
+  &-container{
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    & > img{
+      width: 20px;
+      height: 20px;
+    }
+  }
+  &__input{
+    background-color: transparent;
+    color: #000000;
+    border: transparent;
+    margin-left: 10px;
+    outline: none;
+    padding: 0;
+  }
+  &__text{
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: #8e8d8a;
+    margin-left: 53px;
+  }
+}
+
+.react-datepicker__input-container{
+  max-width: 120px;
+}
+

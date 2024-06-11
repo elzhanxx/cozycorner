@@ -1,0 +1,15 @@
+.btn-places{
+  background: transparent !important;
+}
+
+
+.fav{
+  & > *{
+    fill: #000;
+  }
+  &-a{
+    & > *{
+      fill: #E98074;
+    }
+  }
+}

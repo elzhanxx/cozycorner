@@ -1,0 +1,53 @@
+.hero-img{
+  position: relative;
+  padding: 200px 0 200px 0;
+  &:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-image: url("../../assets/images/mp sb bg 1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    z-index: -9999;
+  }
+}
+.hero-inner{
+  display: flex;
+  width: 1200px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.search-btn{
+  padding: 20px 32px;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  background: #e98074;
+  border-radius: 5px;
+  margin-left: 20px;
+  width: 150px;
+
+}
+.hero-bot{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.svg-white{
+  stroke: white;
+  & > *{
+    stroke: white;
+  }
+}

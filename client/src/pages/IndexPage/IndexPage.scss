@@ -1,0 +1,37 @@
+.place-section{
+    padding: 104px 0 75px 0;
+    &-title{
+
+    }
+}
+.place-container{
+    width: 1157px;
+    margin: 0 auto;
+}
+
+.place-section{
+    &-title{
+        font-weight: 500;
+        font-size: 32px;
+        color: #000;
+        margin-left: 10px;
+    }
+    &-subtitle{
+        margin-top: 8px;
+        font-weight: 500;
+        font-size: 16px;
+        color: #515151;
+        margin-left: 10px;
+    }
+}
+
+.place-box{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text-white-fav{
+    & > *{
+        fill: #fff !important;
+    }
+}

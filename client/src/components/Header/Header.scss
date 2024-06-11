@@ -1,0 +1,21 @@
+.profile-img{
+  cursor: pointer;
+}
+
+.container{
+  width: 1200px;
+  margin: 0 auto;
+
+}
+
+.img-active{
+  display: block;
+  margin-right: 25px;
+  &-h{
+    display: none;
+  }
+}
+.active-profile-container{
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,39 @@
+.pagination {
+  display: flex;
+  align-items: center;
+
+  .nav-button,
+  .page-item {
+    border: 1px solid #ccc;
+    background-color: white;
+    color: black;
+    margin: 0 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 38px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+
+    &:hover {
+      background-color: #f0f0f0;
+    }
+  }
+
+  .page-item.active {
+    background-color: #E98074;
+    color: white;
+  }
+
+  .nav-button {
+    background-color: white;
+    color: black;
+
+    &:disabled {
+      cursor: not-allowed;
+      opacity: 0.5;
+    }
+  }
+}

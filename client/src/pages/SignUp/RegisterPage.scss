@@ -1,0 +1,16 @@
+.custom-btn{
+
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 10px;
+  border: none;
+  color: #000;
+  cursor: pointer;
+  transition: .3s ease-in;
+  &:hover{
+    color: #fff;
+    background: #E98074;
+    transition: .3s ease-in;
+  }
+}
